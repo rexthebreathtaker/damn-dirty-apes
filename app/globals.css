@@ -34,11 +34,11 @@ body {
 }
 
 .rounded-3xl {
-  border-radius: 0rem;
+  border-radius: 1.5rem;
 }
 
 .rounded-2xl {
-  border-radius: 0rem;
+  border-radius: 1rem;
 }
 
 .backdrop-blur-sm {

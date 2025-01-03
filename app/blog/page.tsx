@@ -22,7 +22,7 @@ export default function Blog() {
         {posts.map((post, index) => (
           <motion.div
             key={post.id}
-            className="border border-gray-700 rounded-3xl p-6 backdrop-blur-sm"
+            className="border border-gray-800 rounded-3xl p-6 backdrop-blur-sm"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: index * 0.1 }}

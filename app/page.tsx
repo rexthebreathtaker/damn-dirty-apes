@@ -9,7 +9,7 @@ export default function Home() {
     <div className="min-h-screen p-4 md:p-8 bg-black text-white">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 max-w-7xl mx-auto">
         <motion.div
-          className="col-span-1 md:col-span-2 border border-gray-700 rounded-3xl p-8 flex flex-col justify-center backdrop-blur-sm"
+          className="col-span-1 md:col-span-2 border border-gray-800 rounded-3xl p-8 flex flex-col justify-center backdrop-blur-sm"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -17,7 +17,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Damn Dirty Rex</h1>
           <p className="text-xl md:text-2xl mb-6">Meant To Be Seen As Much As To Be Read</p>
           <div className="flex flex-wrap gap-4">
-            <Link href="/work" className="border border-gray-700 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition-colors duration-300">
+            <Link href="/work" className="border border-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition-colors duration-300">
               View My Work
             </Link>
             <Link href="/contact" className="border border-gray-700 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition-colors duration-300">
@@ -26,7 +26,7 @@ export default function Home() {
           </div>
         </motion.div>
         <motion.div
-          className="col-span-1 border border-gray-700 rounded-3xl p-8 flex flex-col justify-center backdrop-blur-sm"
+          className="col-span-1 border border-gray-800 rounded-3xl p-8 flex flex-col justify-center backdrop-blur-sm"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
@@ -36,7 +36,7 @@ export default function Home() {
           <Link href="/blog" className="text-white hover:text-gray-300 transition-colors duration-300">Read more →</Link>
         </motion.div>
         <motion.div
-          className="col-span-1 border border-gray-700 rounded-3xl p-8 flex flex-col justify-center backdrop-blur-sm"
+          className="col-span-1 border border-gray-800 rounded-3xl p-8 flex flex-col justify-center backdrop-blur-sm"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}

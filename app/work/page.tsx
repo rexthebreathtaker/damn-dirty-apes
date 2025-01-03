@@ -38,7 +38,7 @@ function Project({ project, index }: { project: typeof projects[0], index: numbe
         hidden: { opacity: 0, y: 50 }
       }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className={`border border-gray-700 rounded-3xl overflow-hidden backdrop-blur-sm ${index === 0 ? 'md:col-span-2 md:row-span-2' : ''}`}
+      className={`border border-gray-800 rounded-3xl overflow-hidden backdrop-blur-sm ${index === 0 ? 'md:col-span-2 md:row-span-2' : ''}`}
     >
       <motion.div
         className="relative overflow-hidden"
