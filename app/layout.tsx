@@ -6,20 +6,19 @@ import Footer from './components/Footer'
 const arimo = Arimo({
   weight: ['400', '600', '700'],
   subsets: ['latin'],
-  variable: '--font-poppins',
+  variable: '--font-arimo',
 })
 
 const sourceSans3 = Source_Sans_3({
   weight: ['400', '700'],
   subsets: ['latin'],
-  variable: '--font-merriweather',
+  variable: '--font-sourceSans3',
 })
 
 export const metadata = {
   title: 'Damn Dirty Rex',
   description: 'Exploring Creativity and expanding the gorgeus garden of communication',
   icon: '/images/favicon.png',
-},
 }
 
 export default function RootLayout({
