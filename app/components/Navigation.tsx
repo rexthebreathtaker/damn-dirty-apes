@@ -28,13 +28,13 @@ export default function Navigation() {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-start justify-between h-16">
+        <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/">
               <img
-                src="/images/logo.png"
+                src="/images/logo.webp"
                 alt="Logo"
-                className="max-h-12 w-auto"
+                className="h-12 w-auto"
               />
             </Link>
           </div>
