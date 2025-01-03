@@ -18,6 +18,8 @@ const sourceSans3 = Source_Sans_3({
 export const metadata = {
   title: 'Damn Dirty Rex',
   description: 'Exploring Creativity and expanding the gorgeus garden of communication',
+  icon: '/images/favicon.png',
+},
 }
 
 export default function RootLayout({
