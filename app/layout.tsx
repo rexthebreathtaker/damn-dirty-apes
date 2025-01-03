@@ -16,8 +16,8 @@ const sourceSans3 = Source_Sans_3({
 })
 
 export const metadata = {
-  title: 'Damn Dirty Rex',
-  description: 'Exploring Creativity and expanding the gorgeus garden of communication',
+  title: 'Mooshpea',
+  description: 'Independemt Creative Hub',
   icon: '/images/favicon.png',
 }
 
