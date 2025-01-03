@@ -6,15 +6,15 @@ import { useEffect, useState } from 'react'
 import Image from 'next/image'
 
 const projects = [
-  { id: 1, image: '/images/project1.png' },
-  { id: 2, image: '/images/project2.png' },
-  { id: 3, image: '/images/project3.png' },
-  { id: 4, image: '/images/project4.png' },
-  { id: 5, image: '/images/project5.png' },
-  { id: 6, image: '/images/project6.png' },
-  { id: 7, image: '/images/project7.png' },
-  { id: 8, image: '/images/project8.png' },
-  { id: 9, image: '/images/project9.png' },
+  { id: 1, image: '/images/project1.webp' },
+  { id: 2, image: '/images/project2.webp' },
+  { id: 3, image: '/images/project3.webp' },
+  { id: 4, image: '/images/project4.webp' },
+  { id: 5, image: '/images/project5.webp' },
+  { id: 6, image: '/images/project6.webp' },
+  { id: 7, image: '/images/project7.webp' },
+  { id: 8, image: '/images/project8.webp' },
+  { id: 9, image: '/images/project9.webp' },
 ]
 
 function Project({ project, index }: { project: typeof projects[0], index: number }) {
