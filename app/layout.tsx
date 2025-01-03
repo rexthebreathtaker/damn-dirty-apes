@@ -1,15 +1,15 @@
 import './globals.css'
-import { Poppins, Merriweather } from 'next/font/google'
+import { Arimo, Source_Sans_3 } from 'next/font/google'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 
-const poppins = Poppins({
+const arimo = Arimo({
   weight: ['400', '600', '700'],
   subsets: ['latin'],
   variable: '--font-poppins',
 })
 
-const merriweather = Merriweather({
+const sourceSans3 = Source_Sans_3({
   weight: ['400', '700'],
   subsets: ['latin'],
   variable: '--font-merriweather',
@@ -27,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${merriweather.variable} font-sans bg-black text-white`}>
+      <body className={`${arimo.variable} ${sourceSans3.variable} font-sans bg-black text-white`}>
         <Navigation />
         <main>{children}</main>
         <Footer />
