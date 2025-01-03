@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 // This would typically come from a database or API
 const posts = [
-  { id: 1, title: 'It's Called The Great Whirlwind', date: '2025-01-03', content: 'In the swirling winds of uncertainty, peace is found in the stillness that follows, where growth quietly takes root and the past becomes a distant memory' },
+  { id: 1, title: 'It's Called The Great Whirlwind', date: '2025-01-03', content: 'In the swirling winds of uncertainty, peace is found in the stillness that follows, where growth quietly takes root and the past becomes a distant memory' }
   ]
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const post = posts.find(p => p.id === Number(params.id))
