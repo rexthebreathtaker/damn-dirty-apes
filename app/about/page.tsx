@@ -20,10 +20,10 @@ export default function About() {
         transition={{ delay: 0.5, duration: 0.8 }}
       >
         <p className="mb-4">
-          Rex's thoughts is to turn a basic ideas into visual expressions. It's all about experimenting with the simplest concepts, while discovering the potential of type and design.
+          Damn Dirty Rex is where I bring my thoughts and creativity to digital life. It&apos;s my little corner for both design and writing. Where visuals, graphics, and words come together to telling stories and expressing ideas.
         </p>
         <p className="mb-4">
-          The focus is on the foundational steps, learning, creating, and exploring the beauty in simplicity. Each work is a chance to dive deeper into the design process, share inspiration, and grow as a designer.
+          Whether I&apos;m playing with design or writing about whatever&apos;s on my mind, this platform is all about expanding the gorgeus of communication, both in images and words. It&apos;s a space to experiment, create, and share, and I hope it becomes a place where you can do the same.
         </p> 
       </motion.div>
     </div>

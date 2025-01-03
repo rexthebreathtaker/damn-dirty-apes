@@ -4,10 +4,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 
 const posts = [
-  { id: 1, title: 'The Future of Digital Art', date: '2023-05-15', excerpt: 'Exploring the impact of technology on artistic expression...' },
-  { id: 2, title: 'Exploring Virtual Reality in Modern Museums', date: '2023-06-02', excerpt: 'How VR is changing the way we experience art and culture...' },
-  { id: 3, title: 'AI and Creativity: A New Frontier', date: '2023-06-20', excerpt: 'The role of artificial intelligence in pushing creative boundaries...' },
-  { id: 4, title: 'The Impact of Technology on Contemporary Art', date: '2023-07-08', excerpt: 'Examining the intersection of art and technology in the modern era...' },
+  { id: 1, title: 'It's Called The Great Whirlwind', date: '2025-01-03', excerpt: 'In the swirling winds of uncertainty, peace is found in the stillness that follows, where growth quietly takes root and the past becomes a distant memory },
 ]
 
 export default function Blog() {

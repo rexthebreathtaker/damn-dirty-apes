@@ -14,8 +14,8 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Rex's Visual Chaos</h1>
-          <p className="text-xl md:text-2xl mb-6">Independent Typographic Practice Meant To Be Seen As Much As To Be Read</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Damn Dirty Rex</h1>
+          <p className="text-xl md:text-2xl mb-6">Meant To Be Seen As Much As To Be Read</p>
           <div className="flex flex-wrap gap-4">
             <Link href="/work" className="border border-gray-700 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition-colors duration-300">
               View My Work
@@ -31,8 +31,8 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <h2 className="text-2xl font-bold mb-4">Latest Blog Post</h2>
-          <p className="mb-4">Exploring the Intersection of Typography and Digital Art</p>
+          <h2 className="text-2xl font-bold mb-4">Latest Post</h2>
+          <p className="mb-4">It's Called The Great Whirlwind</p>
           <Link href="/blog" className="text-white hover:text-gray-300 transition-colors duration-300">Read more →</Link>
         </motion.div>
         <motion.div
@@ -42,7 +42,7 @@ export default function Home() {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <h2 className="text-2xl font-bold mb-4">About Rex</h2>
-          <p className="mb-4">Pushing the boundaries of typography and visual design</p>
+          <p className="mb-4">Exploring Creativity and Expanding The Gorgeus of Communication</p>
           <Link href="/about" className="text-white hover:text-gray-300 transition-colors duration-300">Learn more →</Link>
         </motion.div>
       </div>
@@ -52,10 +52,10 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}
       >
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+        <a href="https://github.com/rexthebreathtaker" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
           <Github size={24} />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+        <a href="https://instagram.com/rexthebreathtaker" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
           <Instagram size={24} />
         </a>
       </motion.div>

@@ -7,9 +7,49 @@ const posts = [
   { id: 1, title: 'The Future of Digital Art', date: '2023-05-15', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' },
   { id: 2, title: 'Exploring Virtual Reality in Modern Museums', date: '2023-06-02', content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
   { id: 3, title: 'AI and Creativity: A New Frontier', date: '2023-06-20', content: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' },
-  { id: 4, title: 'The Impact of Technology on Contemporary Art', date: '2023-07-08', content: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' },
-]
+.' },
+  { i: 'Thact of Teon Contemp, da'2023-07-0t: 'Eeurnt occcupit non prsunt in cofficiant moanid t 
+    ]
 
+    export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+      const post = posts.find(p => p.id === Number(params.id))
+        
+          if (!post) {
+              return {
+                    title: 'Post Not Found',
+d',
+                        description: 'The requested blog post could no
+                        ]
+
+                        export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+                          const post = posts.find(p => p.id === Number(params.id))
+                            
+                              if (!post) {
+                                  return {
+                                        title: 'Post Not Found',
+                                  title: 'Post Not Found',
+                                              description: 'The requested blog post could not
+                                              ]
+
+                                              export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+                                                const post = posts.find(p => p.id === Number(params.id))
+                                                  
+                                                    if (!post) {
+                                                        return {
+                                                              title: 'Post Not Found',
+
+                                                              title: 'Post Not Found',
+                                                                    descriptio
+descriptio
+                                                                descriptio
+descriptio
+Found',
+                                                                    descriptio
+descriptio
+                                                                descriptio
+descriptio
+
+export async function generateMetadata({ params }: { params: { 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const post = posts.find(p => p.id === Number(params.id))
   
