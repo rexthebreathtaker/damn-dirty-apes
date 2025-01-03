@@ -23,7 +23,7 @@ export default function About() {
           Damn Dirty Rex is where I bring my thoughts and creativity to digital life. It&apos;s my little corner for both design and writing. Where visuals, graphics, and words come together to telling stories and expressing ideas.
         </p>
         <p className="mb-4">
-          Whether I&apos;m playing with design or writing about whatever&apos;s on my mind, this platform is all about expanding the gorgeus of communication, both in images and words. It&apos;s a space to experiment, create, and share, and I hope it becomes a place where you can do the same.
+          Whether I&apos;m playing with design or writing about whatever&apos;s on my mind, this platform is all about expanding the gorgeus garden of communication, both in images and words. It&apos;s a space to experiment, create, and share, and I hope it becomes a place where you can do the same.
         </p> 
       </motion.div>
     </div>

@@ -42,7 +42,7 @@ export default function Home() {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <h2 className="text-2xl font-bold mb-4">About Rex</h2>
-          <p className="mb-4">Exploring Creativity and Expanding The Gorgeus of Communication</p>
+          <p className="mb-4">Exploring Creativity and Expanding The Gorgeus Garden of Communication</p>
           <Link href="/about" className="text-white hover:text-gray-300 transition-colors duration-300">Learn more →</Link>
         </motion.div>
       </div>

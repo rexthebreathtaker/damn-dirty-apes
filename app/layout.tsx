@@ -16,8 +16,8 @@ const merriweather = Merriweather({
 })
 
 export const metadata = {
-  title: 'Bandicoot Form - Independent Typographic Practice',
-  description: 'A space for learning typography and graphic design',
+  title: 'Damn Dirty Rex',
+  description: 'Exploring Creativity and expanding the gorgeus garden of communication',
 }
 
 export default function RootLayout({
