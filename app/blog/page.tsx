@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 
 const posts = [
-  { id: 1, title: "It's Called The Great Whirlwind', date: '2025-01-03', excerpt: 'In the swirling winds of uncertainty, peace is found in the stillness that follows, where growth quietly takes root and the past becomes a distant memory" }
+  { id: 1, title: "It's Called The Great Whirlwind", date: '2025-01-03', excerpt: 'In the swirling winds of uncertainty, peace is found in the stillness that follows, where growth quietly takes root and the past becomes a distant memory.' }
 ]
 
 export default function Blog() {
@@ -38,4 +38,3 @@ export default function Blog() {
     </div>
   )
 }
-
