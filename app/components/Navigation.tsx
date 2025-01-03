@@ -34,7 +34,7 @@ export default function Navigation() {
               <img
                 src="/images/logo.webp"
                 alt="Logo"
-                className="h-12 w-auto"
+                className="h-14 w-auto"
               />
             </Link>
           </div>
