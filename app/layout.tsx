@@ -18,7 +18,7 @@ const sourceSans3 = Source_Sans_3({
 
 export const metadata = {
   title: 'Mooshpea',
-  description: 'Independemt Creative Hub',
+  description: 'A space to exploring creativity and expanding the gorgeus garden of communication.☘️',
   icon: '/images/favicon.png',
 }
 
@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head> <link rel="icon" href="/images/favicon.png" />
+      <Head> <link rel="icon" type="image/png" href="/images/favicon.png" />
         </Head>
       <body className={`${inter.variable} ${sourceSans3.variable} font-sans bg-black text-white`}>
         <Navigation />
