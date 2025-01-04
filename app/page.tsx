@@ -7,7 +7,8 @@ import { Github, Instagram } from 'lucide-react'
 export default function Home() {
   return (
     <div className="min-h-screen p-4 md:p-8 bg-black text-white">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 max-w-7xl mx-auto rounded-3xl p-1 bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600">
+      </div>
         <motion.div
           className="col-span-1 md:col-span-2 border border-gray-800 rounded-3xl p-8 flex flex-col justify-center backdrop-blur-sm"
           initial={{ opacity: 0, y: 20 }}
@@ -15,7 +16,7 @@ export default function Home() {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-700">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600">
               Mooshpea
             </span>
           </h1>
@@ -40,7 +41,7 @@ export default function Home() {
           transition={{ duration: 0.5, delay: 0.3 }}
         >
           <h2 className="text-2xl font-bold mb-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-700">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600">
               Drops
               </span>
             </h2>
@@ -58,7 +59,7 @@ export default function Home() {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <h2 className="text-2xl font-bold mb-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-700">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600">
               Blurb
               </span>
             </h2>
