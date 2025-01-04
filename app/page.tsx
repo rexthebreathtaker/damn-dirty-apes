@@ -16,15 +16,15 @@ export default function Home() {
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Mooshpea</h1>
           <p className="text-xl md:text-2xl mb-6">
-            <span>Design with purpose →</span>
-            <span>Create with passion ✦</span>
-            <span>Deliver excellence ⚡</span>
+            Design with purpose →<br/>
+            Create with passion ✦<br/>
+            Deliver excellence ⚡
           </p>
           <div className="flex flex-wrap gap-4">
             <Link href="/work" className="border border-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition-colors duration-300">
               View My Work
             </Link>
-            <Link href="/contact" className="border border-gray-700 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition-colors duration-300">
+            <Link href="/contact" className="border border-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition-colors duration-300">
               Get in Touch
             </Link>
           </div>
@@ -35,7 +35,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <h2 className="text-2xl font-bold mb-4">Latest Post</h2>
+          <h2 className="text-2xl font-bold mb-4">Brain Drops 🧠</h2>
           <p className="mb-4">It's Called The Great Whirlwind</p>
           <Link href="/blog" className="text-white hover:text-gray-300 transition-colors duration-300">Read more →</Link>
         </motion.div>
@@ -45,8 +45,8 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <h2 className="text-2xl font-bold mb-4">About</h2>
-          <p className="mb-4">Exploring Creativity and Expanding The Gorgeus Garden of Communication</p>
+          <h2 className="text-2xl font-bold mb-4">Blurb 🚀</h2>
+          <p className="mb-4">Exploring creativity and expanding the gorgeus garden of communication</p>
           <Link href="/about" className="text-white hover:text-gray-300 transition-colors duration-300">Learn more →</Link>
         </motion.div>
       </div>
