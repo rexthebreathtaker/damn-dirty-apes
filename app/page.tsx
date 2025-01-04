@@ -14,7 +14,11 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Mooshpea</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+              Mooshpea
+            </span>
+          </h1>
           <p className="text-xl md:text-2xl mb-6">
             Design with purpose →<br/>
             Create with passion ✦<br/>
@@ -35,7 +39,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <h2 className="text-2xl font-bold mb-4">Brain Drops 🧠</h2>
+          <h2 className="text-2xl font-bold mb-4">Drops</h2>
           <p className="mb-4">It's Called The Great Whirlwind</p>
           <Link href="/blog" className="text-white hover:text-gray-300 transition-colors duration-300">Read more →</Link>
         </motion.div>
@@ -45,7 +49,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <h2 className="text-2xl font-bold mb-4">Blurb 🚀</h2>
+          <h2 className="text-2xl font-bold mb-4">Blurb</h2>
           <p className="mb-4">Exploring creativity and expanding the gorgeus garden of communication</p>
           <Link href="/about" className="text-white hover:text-gray-300 transition-colors duration-300">Learn more →</Link>
         </motion.div>
