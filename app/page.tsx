@@ -39,7 +39,11 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <h2 className="text-2xl font-bold mb-4">Drops</h2>
+          <h2 className="text-2xl font-bold mb-4">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-700">
+              Drops
+              </span>
+            </h2>
           <p className="mb-4">It's Called The Great Whirlwind</p>
           <Link href="/blog" className="text-white hover:text-gray-300 transition-colors duration-300">Read more →</Link>
         </motion.div>
@@ -49,7 +53,11 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <h2 className="text-2xl font-bold mb-4">Blurb</h2>
+          <h2 className="text-2xl font-bold mb-4">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-700">
+              Blurb
+              </span>
+            </h2>
           <p className="mb-4">Exploring creativity and expanding the gorgeus garden of communication</p>
           <Link href="/about" className="text-white hover:text-gray-300 transition-colors duration-300">Learn more →</Link>
         </motion.div>
