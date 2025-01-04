@@ -15,7 +15,7 @@ export default function Home() {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-500 via-blue-500 to-teal-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-700">
               Mooshpea
             </span>
           </h1>
