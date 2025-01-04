@@ -45,7 +45,11 @@ export default function Home() {
               </span>
             </h2>
           <p className="mb-4">It's Called The Great Whirlwind</p>
-          <Link href="/blog" className="text-white hover:text-gray-300 transition-colors duration-300">Read more →</Link>
+          <Link href="/blog" className="text-white hover:text-gray-300 transition-colors duration-300">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600">
+            Read more →
+            </span>
+            </Link>
         </motion.div>
         <motion.div
           className="col-span-1 border border-gray-800 rounded-3xl p-8 flex flex-col justify-center backdrop-blur-sm"
@@ -59,7 +63,11 @@ export default function Home() {
               </span>
             </h2>
           <p className="mb-4">Exploring creativity and expanding the gorgeus garden of communication</p>
-          <Link href="/about" className="text-white hover:text-gray-300 transition-colors duration-300">Learn more →</Link>
+          <Link href="/about" className="text-white hover:text-gray-300 transition-colors duration-300">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600">
+            Learn more →
+            </span>
+            </Link>
         </motion.div>
       </div>
       <motion.div
