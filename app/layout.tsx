@@ -1,13 +1,13 @@
 import './globals.css'
-import { Arimo, Source_Sans_3 } from 'next/font/google'
+import { Inter, Source_Sans_3 } from 'next/font/google'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 import Head from 'next/head';
 
-const arimo = Arimo({
+const inter = Inter({
   weight: ['400', '600', '700'],
   subsets: ['latin'],
-  variable: '--font-arimo',
+  variable: '--font-inter',
 })
 
 const sourceSans3 = Source_Sans_3({
@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <Head> <link rel="icon" href="/images/favicon.png" />
         </Head>
-      <body className={`${arimo.variable} ${sourceSans3.variable} font-sans bg-black text-white`}>
+      <body className={`${inter.variable} ${sourceSans3.variable} font-sans bg-black text-white`}>
         <Navigation />
         <main>{children}</main>
         <Footer />
